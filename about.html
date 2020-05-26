@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/6036d7789b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:wght@400;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
   <title>Danny Suh's Personal Website</title>
 </head>
 <body>
@@ -35,18 +37,26 @@
   </nav>
 
   <div class="container">
-  <div class="row">
-    <div class="col">
-      Danny Suh <br>
-      Data Analyst / Aspiring Software Engineer <br>
-      email: sangoksuh@hotmail.com / phone: 213-507-2011 <br>
-      <a class="btn btn-light" href="https://github.com/sangokey"><i class="fab fa-github"></i></a>
-      <a class="btn btn-light" href="https://www.linkedin.com/in/sangoksuh/"><i class="fab fa-linkedin"></i></a>
+  <div class="row justify-content-around">
+    <div class="col-5" id="col1">
+      <div class='coltext'>
+      <div class = "abouttext1" id = "aboutname">DANNY SUH</div>
+      <div class = "abouttext1" id ="abouttitle">Data Analyst / Aspiring Software Engineer</div>
+      <div class = "abouttext1" id = "emailphone">email: sangoksuh@hotmail.com / phone: 213-507-2011</div>
+      <div class="linkbuttons">
+      <a class="btn btn-dark" href="https://github.com/sangokey"><i class="fab fa-github"></i></a>
+      <a class="btn btn-dark" href="https://www.linkedin.com/in/sangoksuh/"><i class="fab fa-linkedin"></i></a>
+      </div>
     </div>
-    <div class="col">
-      Resume <br>
-      <a class="btn btn-light" href="./Suh_SangOk_Resume.pdf" target="_blank">Download My Resume</a> <br>
-      Education <br>
+    </div>
+    <div class="col-5" id = "col1" overflow = auto>
+      <div class="resumetitle">RESUME    <a class="btn btn-light" href="resume/Suh_SangOk_Resume.pdf" target="_blank"><svg class="bi bi-download" width=".9em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M.5 8a.5.5 0 0 1 .5.5V12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8.5a.5.5 0 0 1 1 0V12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8.5A.5.5 0 0 1 .5 8z"/>
+      <path fill-rule="evenodd" d="M5 7.5a.5.5 0 0 1 .707 0L8 9.793 10.293 7.5a.5.5 0 1 1 .707.707l-2.646 2.647a.5.5 0 0 1-.708 0L5 8.207A.5.5 0 0 1 5 7.5z"/>
+      <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0v-8A.5.5 0 0 1 8 1z"/>
+        </svg></a>
+      </div>
+      <div class="title">EDUCATION</div>
       B.S. Computer Science <br>
       <ul>
         <li>Oregon State University (Postbaccalaureate)</li>
@@ -59,7 +69,7 @@
         <li>June 2018</li>
         <li>GPA: 3.72, <i>cum laude</i></li>
       </ul>
-      Experience <br>
+      <div class="title">EXPERIENCE</div>
       Data Analyst
       <ul>
         <li>Gamevil Com2us</li>
@@ -68,6 +78,8 @@
     </div>
   </div>
 
+
+<script type="text/javascript" src = "script.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
